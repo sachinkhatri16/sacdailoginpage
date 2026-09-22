@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sign in to your account">
+  <title>Sign in | Northstar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="login-shell">
+    <section class="welcome-panel" aria-label="Welcome">
+      <a class="brand" href="#" aria-label="Northstar home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>northstar</span>
+      </a>
+
+      <div class="welcome-copy">
+        <p class="eyebrow">A clearer way forward</p>
+        <h1>Make space for what matters.</h1>
+        <p class="welcome-text">Your ideas, projects, and plans are waiting. Pick up exactly where you left off.</p>
+      </div>
+
+      <div class="quote">
+        <span class="quote-mark" aria-hidden="true">“</span>
+        <p>Small steps every day add up to big change.</p>
+      </div>
+    </section>
+
+    <section class="form-panel" aria-labelledby="login-title">
+      <div class="form-container">
+        <div class="mobile-brand">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>northstar</span>
+        </div>
+
+        <div class="form-heading">
+          <p class="eyebrow">Welcome back</p>
+          <h2 id="login-title">Sign in to your account</h2>
+          <p>Enter your details below to continue.</p>
+        </div>
+
+        <form action="#" method="post">
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+          </div>
+
+          <div class="field">
+            <div class="label-row">
+              <label for="password">Password</label>
+              <a href="#">Forgot password?</a>
+            </div>
+            <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+          </div>
+
+          <label class="remember">
+            <input type="checkbox" name="remember">
+            <span class="custom-checkbox" aria-hidden="true"></span>
+            <span>Remember me for 30 days</span>
+          </label>
+
+          <button type="submit">Sign in <span aria-hidden="true">→</span></button>
+        </form>
+
+        <div class="divider"><span>or continue with</span></div>
+
+        <div class="social-buttons">
+          <a href="#" class="social-button" aria-label="Continue with Google">
+            <span class="google-icon" aria-hidden="true">G</span>
+            <span>Google</span>
+          </a>
+          <a href="#" class="social-button" aria-label="Continue with Apple">
+            <span class="apple-icon" aria-hidden="true">●</span>
+            <span>Apple</span>
+          </a>
+        </div>
+
+        <p class="signup">Don't have an account? <a href="#">Create one</a></p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
